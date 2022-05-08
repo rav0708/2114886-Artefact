@@ -1,0 +1,28 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if filename %}
+  <h1>some text <img src="{{ url_for('send_file', filename=filename) }}">more text!</h1>
+{% else %}
+  <h1>no image for whatever reason</h1>
+{% endif %}
+  
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input accept attribute</h1>
+
+<form method="post" enctype="multipart/form-data">
+  <label for="img">Select image:</label>
+  <input type="file" id="img" name="img" accept="image/*">
+  <input type="submit" value="submit">
+</form>
+
+</body>
+</html>-->
