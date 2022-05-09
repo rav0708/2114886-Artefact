@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+array Building_type
+array Compartment_type
+attr? camera_id
+attr? show_fps
+id any
+id back
+id front
+string Cool
+string Female
+string Male
+string Neutral
+string Other
+string Warm
+string txtText
+styleable CameraBridgeViewBase show_fps camera_id
